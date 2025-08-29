@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.SceneManagement;
 
 public class PlayerController : MonoBehaviour
 {
@@ -7,6 +8,8 @@ public class PlayerController : MonoBehaviour
     [SerializeField] InputAction lompat;
     [SerializeField] float KekuatanLompat = 10.0f;
     [SerializeField] float speed = 3.0f;
+
+
     bool isGrounded = false;
 
 
@@ -43,7 +46,7 @@ public class PlayerController : MonoBehaviour
         if (other.gameObject.CompareTag("Obstacle"))
         {
             Debug.Log("Mati");
-            Destroy(gameObject);
+            SceneManager.LoadScene("LoseScene");
         }
 
         if (other.CompareTag("Ground"))

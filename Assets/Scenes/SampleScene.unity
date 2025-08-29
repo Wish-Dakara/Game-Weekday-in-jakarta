@@ -3137,6 +3137,7 @@ MonoBehaviour:
     m_Flags: 0
   KekuatanLompat: 9
   speed: 3
+  sceneToLoad: LoseScene
 --- !u!50 &1873328876
 Rigidbody2D:
   serializedVersion: 5
