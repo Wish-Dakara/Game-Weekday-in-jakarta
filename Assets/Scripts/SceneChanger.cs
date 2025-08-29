@@ -8,9 +8,5 @@ public class SceneChanger : MonoBehaviour
         SceneManager.LoadScene("Gameplay");
     }
 
-    public void QuitGame()
-    {
-        Debug.Log("Quit Game");
-        Application.Quit();
-    }
+
 }

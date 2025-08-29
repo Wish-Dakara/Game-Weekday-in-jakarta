@@ -4,9 +4,14 @@ using UnityEngine.InputSystem;
 public class PlayerController : MonoBehaviour
 {
     Rigidbody2D rb;
+    Animator animator;
     [SerializeField] InputAction lompat;
-    [SerializeField] float KekuatanLompat = 10.0f;
-    [SerializeField] float speed = 3.0f;
+    [SerializeField] float KekuatanLompat = 5.0f;
+    [SerializeField] float speedNormal = 3.0f;
+    [SerializeField] private AudioClip[] sfxClips; // Put your 2 (or more) clips here
+    private AudioSource audioSource;
+    private float SpeedUdara = 3.0f;
+    private float speed;
     bool isGrounded = false;
 
 
@@ -15,6 +20,9 @@ public class PlayerController : MonoBehaviour
     void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
+        animator = GetComponent<Animator>();
+        audioSource = GetComponent<AudioSource>();
+
         lompat.Enable();
         
     }
@@ -32,12 +40,20 @@ public class PlayerController : MonoBehaviour
             rb.linearVelocity = new Vector2(rb.linearVelocity.x, KekuatanLompat);
             Debug.Log("berhasil lompat");
             isGrounded = false;
-            speed = +4;
+            speed = speedNormal+ SpeedUdara;
+            PlayRandomSFX();
+            
         }
 
 
     }
 
+    void PlayRandomSFX()
+    {
+        if (sfxClips.Length == 0) return;
+        int randomIndex = Random.Range(0, sfxClips.Length);
+        audioSource.PlayOneShot(sfxClips[randomIndex]);
+    }
     void OnTriggerEnter2D(Collider2D other)
     {
         if (other.gameObject.CompareTag("Obstacle"))
@@ -50,6 +66,8 @@ public class PlayerController : MonoBehaviour
         {
             isGrounded = true;
             Debug.Log("Nyentuh tanah");
+            speed = speedNormal;
+            animator.SetBool("IsJumping", !isGrounded);
         }
     }
     void OnTriggerExit2D(Collider2D other)
@@ -58,6 +76,7 @@ public class PlayerController : MonoBehaviour
         {
             isGrounded = false;
             Debug.Log("Keluar dari tanah");
+            animator.SetBool("IsJumping", !isGrounded);
         }
     }
 }
