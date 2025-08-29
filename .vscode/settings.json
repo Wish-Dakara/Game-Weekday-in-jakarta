@@ -57,4 +57,5 @@
         "Temp/": true
     },
     "dotnet.defaultSolution": "Game-Weekday-in-jakarta.sln",
+    "FSharp.suggestGitignore": false
 }
