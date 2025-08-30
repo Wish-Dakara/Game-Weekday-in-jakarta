@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 6a37fc75fd8f7cb4aa5d09e2018b6ed9
+guid: 168a5bce2e3cd974b8ce2ec9b2f791b2
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 6208431064037246454
-    second: Weekdays_In_Jakarta-removebg-preview_0
+      213: -5897826614370681119
+    second: Screenshot 2025-08-27 220704_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -109,17 +109,30 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Weekdays_In_Jakarta-removebg-preview_0
+      name: Screenshot 2025-08-27 220704_0
       rect:
         serializedVersion: 2
-        x: 50
-        y: 209
-        width: 315
-        height: 174
+        x: 0
+        y: 0
+        width: 1490
+        height: 841
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +141,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6f5c078b827c82650800000000000000
-      internalID: 6208431064037246454
+      spriteID: 1ee379731f5b62ea0800000000000000
+      internalID: -5897826614370681119
       vertices: []
       indices: 
       edges: []
@@ -148,7 +161,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Weekdays_In_Jakarta-removebg-preview_0: 6208431064037246454
+      Screenshot 2025-08-27 220704_0: -5897826614370681119
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

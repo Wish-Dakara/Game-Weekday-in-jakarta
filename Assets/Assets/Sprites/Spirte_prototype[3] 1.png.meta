@@ -1,43 +1,31 @@
 fileFormatVersion: 2
-guid: 5d86bd64454dab747a8934a0dea061a4
+guid: babdca3b2bc339946a2e358148082a22
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -3175310563550041184
-    second: Spirte_jump_0
+      213: -8751162911235443881
+    second: Spirte_prototype[3] 1_0
   - first:
-      213: 3934794062270240249
-    second: Spirte_jump_1
+      213: -3669389973810342946
+    second: Spirte_prototype[3] 1_1
   - first:
-      213: 4720680548409014469
-    second: Spirte_jump_2
+      213: -4391756970258433550
+    second: Spirte_prototype[3] 1_2
   - first:
-      213: 8218695577564164201
-    second: Spirte_jump_3
+      213: -6589806816493226743
+    second: Spirte_prototype[3] 1_3
   - first:
-      213: -2802043278652698872
-    second: Spirte_jump_4
+      213: 7960963044135849618
+    second: Spirte_prototype[3] 1_4
   - first:
-      213: -1145766021761274007
-    second: Spirte_jump_5
+      213: -4256620281410989045
+    second: Spirte_prototype[3] 1_5
   - first:
-      213: 3720458460451669231
-    second: Spirte_jump_6
+      213: -449842897131206860
+    second: Spirte_prototype[3] 1_6
   - first:
-      213: 5542421878344330715
-    second: Spirte_jump_7
-  - first:
-      213: -4664672756015147029
-    second: Spirte_jump_8
-  - first:
-      213: -3143962923037772779
-    second: Spirte_jump_9
-  - first:
-      213: 2819601712539263520
-    second: Spirte_jump_10
-  - first:
-      213: -2114702211327205494
-    second: Spirte_jump_11
+      213: -5692263832933557220
+    second: Spirte_prototype[3] 1_7
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -142,17 +130,30 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Spirte_jump_0
+      name: Spirte_prototype[3] 1_0
       rect:
         serializedVersion: 2
-        x: 16
-        y: 999
-        width: 633
-        height: 967
+        x: 2
+        y: 2963
+        width: 725
+        height: 713
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -161,20 +162,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0abed00bdd70fe3d0800000000000000
-      internalID: -3175310563550041184
+      spriteID: 753fc38a2bf9d8680800000000000000
+      internalID: -8751162911235443881
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Spirte_jump_1
+      name: Spirte_prototype[3] 1_1
       rect:
         serializedVersion: 2
-        x: 835
-        y: 1017
-        width: 584
-        height: 782
+        x: 750
+        y: 2960
+        width: 736
+        height: 648
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -183,20 +184,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9f51fe92a523b9630800000000000000
-      internalID: 3934794062270240249
+      spriteID: ed397a49245b31dc0800000000000000
+      internalID: -3669389973810342946
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Spirte_jump_2
+      name: Spirte_prototype[3] 1_2
       rect:
         serializedVersion: 2
-        x: 1667
-        y: 1715
-        width: 16
-        height: 15
+        x: 1527
+        y: 2969
+        width: 688
+        height: 678
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -205,20 +206,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5c8f30292f9338140800000000000000
-      internalID: 4720680548409014469
+      spriteID: 2f976e7dd485d03c0800000000000000
+      internalID: -4391756970258433550
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Spirte_jump_3
+      name: Spirte_prototype[3] 1_3
       rect:
         serializedVersion: 2
-        x: 2325
-        y: 1064
-        width: 450
-        height: 738
+        x: 2241
+        y: 2969
+        width: 735
+        height: 720
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -227,20 +228,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 96039c1551cae0270800000000000000
-      internalID: 8218695577564164201
+      spriteID: 905397c5d9d4c84a0800000000000000
+      internalID: -6589806816493226743
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Spirte_jump_4
+      name: Spirte_prototype[3] 1_4
       rect:
         serializedVersion: 2
-        x: 1495
-        y: 1264
-        width: 732
-        height: 445
+        x: 0
+        y: 1979
+        width: 710
+        height: 706
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -249,20 +250,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 80f82a2eb742d19d0800000000000000
-      internalID: -2802043278652698872
+      spriteID: 29ecabba5b50b7e60800000000000000
+      internalID: 7960963044135849618
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Spirte_jump_5
+      name: Spirte_prototype[3] 1_5
       rect:
         serializedVersion: 2
-        x: 2768
-        y: 1624
-        width: 15
-        height: 16
+        x: 742
+        y: 1975
+        width: 733
+        height: 692
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -271,20 +272,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 96fe43dafdb6910f0800000000000000
-      internalID: -1145766021761274007
+      spriteID: b0456c618627de4c0800000000000000
+      internalID: -4256620281410989045
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Spirte_jump_6
+      name: Spirte_prototype[3] 1_6
       rect:
         serializedVersion: 2
-        x: 46
-        y: 233
-        width: 526
-        height: 688
+        x: 1596
+        y: 1976
+        width: 609
+        height: 767
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -293,20 +294,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: fe481d80249b1a330800000000000000
-      internalID: 3720458460451669231
+      spriteID: 43703c7b446d1c9f0800000000000000
+      internalID: -449842897131206860
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Spirte_jump_7
+      name: Spirte_prototype[3] 1_7
       rect:
         serializedVersion: 2
-        x: 564
-        y: 651
-        width: 15
-        height: 17
+        x: 2227
+        y: 1981
+        width: 757
+        height: 737
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -315,96 +316,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: bdd21165553aaec40800000000000000
-      internalID: 5542421878344330715
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Spirte_jump_8
-      rect:
-        serializedVersion: 2
-        x: 745
-        y: 376
-        width: 717
-        height: 428
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: be75648c7d0c34fb0800000000000000
-      internalID: -4664672756015147029
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Spirte_jump_9
-      rect:
-        serializedVersion: 2
-        x: 1599
-        y: 43
-        width: 395
-        height: 914
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 514b55101666e54d0800000000000000
-      internalID: -3143962923037772779
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Spirte_jump_10
-      rect:
-        serializedVersion: 2
-        x: 2283
-        y: 216
-        width: 669
-        height: 614
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 0226cf391dc312720800000000000000
-      internalID: 2819601712539263520
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Spirte_jump_11
-      rect:
-        serializedVersion: 2
-        x: 1264
-        y: 358
-        width: 17
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: a8fdb100b8117a2e0800000000000000
-      internalID: -2114702211327205494
+      spriteID: c1c113ee3340101b0800000000000000
+      internalID: -5692263832933557220
       vertices: []
       indices: 
       edges: []
@@ -422,7 +335,15 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Spirte_prototype[3] 1_0: -8751162911235443881
+      Spirte_prototype[3] 1_1: -3669389973810342946
+      Spirte_prototype[3] 1_2: -4391756970258433550
+      Spirte_prototype[3] 1_3: -6589806816493226743
+      Spirte_prototype[3] 1_4: 7960963044135849618
+      Spirte_prototype[3] 1_5: -4256620281410989045
+      Spirte_prototype[3] 1_6: -449842897131206860
+      Spirte_prototype[3] 1_7: -5692263832933557220
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

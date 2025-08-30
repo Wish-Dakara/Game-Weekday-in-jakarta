@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: cb66b2cb3efb2a549aa5ebdc9152c38f
+guid: d2b8e89c6298f5a479bf07dccd5f587a
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 2443508022720463378
-    second: WhatsApp Image 2025-08-29 at 07.21.51_8339fc02_0
+      213: 5933292986450474473
+    second: Untitled design (3)_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -97,6 +97,19 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
     buildTarget: WebGL
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -113,13 +126,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: WhatsApp Image 2025-08-29 at 07.21.51_8339fc02_0
+      name: Untitled design (3)_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 1280
-        height: 853
+        x: 416
+        y: 413
+        width: 731
+        height: 753
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +141,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2120214b99519e120800000000000000
-      internalID: 2443508022720463378
+      spriteID: 9e572b5098a475250800000000000000
+      internalID: 5933292986450474473
       vertices: []
       indices: 
       edges: []
@@ -148,7 +161,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      WhatsApp Image 2025-08-29 at 07.21.51_8339fc02_0: 2443508022720463378
+      Untitled design (3)_0: 5933292986450474473
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -51,15 +51,16 @@ public class PlayerController : MonoBehaviour
 
     void PlayRandomSFX()
     {
-        if (sfxClips.Length == 0) return;
-        int randomIndex = Random.Range(0, sfxClips.Length);
-        audioSource.PlayOneShot(sfxClips[randomIndex]);
+      if (sfxClips.Length < 2) return;
+      int randomIndex = Random.Range(0, 2); // Only use sound 0 and 1
+      audioSource.PlayOneShot(sfxClips[randomIndex]);
     }
     void OnTriggerEnter2D(Collider2D other)
     {
         if (other.gameObject.CompareTag("Obstacle"))
         {
             Debug.Log("Mati");
+            audioSource.PlayOneShot(sfxClips[2]);
             Destroy(gameObject);
             SceneManager.LoadScene("Lose");
         }
