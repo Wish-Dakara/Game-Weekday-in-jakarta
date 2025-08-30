@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.SceneManagement;
 
 public class PlayerController : MonoBehaviour
 {
@@ -7,10 +8,10 @@ public class PlayerController : MonoBehaviour
     Animator animator;
     [SerializeField] InputAction lompat;
     [SerializeField] float KekuatanLompat = 5.0f;
-    [SerializeField] float speedNormal = 3.0f;
+    [SerializeField] float speedNormal = 2.0f;
     [SerializeField] private AudioClip[] sfxClips; // Put your 2 (or more) clips here
     private AudioSource audioSource;
-    private float SpeedUdara = 3.0f;
+    private float SpeedUdara = 1.0f;
     private float speed;
     bool isGrounded = false;
 
@@ -60,6 +61,13 @@ public class PlayerController : MonoBehaviour
         {
             Debug.Log("Mati");
             Destroy(gameObject);
+            SceneManager.LoadScene("Lose");
+        }
+
+        if (other.gameObject.CompareTag("Win"))
+        {
+            Debug.Log("Menang");
+            SceneManager.LoadScene("Win");
         }
 
         if (other.CompareTag("Ground"))
@@ -68,8 +76,10 @@ public class PlayerController : MonoBehaviour
             Debug.Log("Nyentuh tanah");
             speed = speedNormal;
             animator.SetBool("IsJumping", !isGrounded);
+         
         }
     }
+
     void OnTriggerExit2D(Collider2D other)
     {
         if (other.CompareTag("Ground"))

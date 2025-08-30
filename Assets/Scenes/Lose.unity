@@ -257,7 +257,7 @@ MonoBehaviour:
   m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 1920, y: 1080}
+  m_ReferenceResolution: {x: 800, y: 600}
   m_ScreenMatchMode: 0
   m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3
@@ -343,8 +343,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 66, y: -316}
-  m_SizeDelta: {x: 438.477, y: 352.497}
+  m_AnchoredPosition: {x: 62, y: -134}
+  m_SizeDelta: {x: 255.2908, y: 225.7683}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &678333513
 MonoBehaviour:
@@ -422,15 +422,15 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 5933292986450474473, guid: d2b8e89c6298f5a479bf07dccd5f587a, type: 3}
+  m_Sprite: {fileID: 8871750365745515610, guid: bce267e3fe967fb43b1bdb4661a435a1, type: 3}
   m_Type: 0
-  m_PreserveAspect: 1
+  m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
   m_FillAmount: 1
   m_FillClockwise: 1
   m_FillOrigin: 0
-  m_UseSpriteMesh: 1
+  m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
 --- !u!222 &678333515
 CanvasRenderer:
